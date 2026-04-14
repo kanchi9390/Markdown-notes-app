@@ -10,11 +10,12 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "dompurify": "^3.0.5",
+    "marked": "^9.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "marked": "^9.1.2",
-    "dompurify": "^3.0.5"
+    "react-router-dom": "^6.30.3",
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
