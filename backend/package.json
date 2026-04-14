@@ -1,0 +1,36 @@
+{
+  "name": "markdown-notes-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Markdown Notes Application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/database/migrate.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "mysql2": "^3.22.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "markdown",
+    "notes",
+    "api",
+    "express",
+    "postgresql"
+  ],
+  "author": "Full Stack Engineer",
+  "license": "MIT"
+}
